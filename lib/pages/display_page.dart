@@ -32,12 +32,20 @@ class _DisplayPageState extends State<DisplayPage> {
       appBar: AppBar(
         title: const Text('Flutter Secure Storage'),
       ),
+      backgroundColor: Colors.green.shade100,
       body: Container(
+        width: double.maxFinite,
         padding: const EdgeInsets.all(8),
         child: Column(
           children: [
-            Text('Name  $name'),
-            Text('Date  $date'),
+            Text(
+              'Name  $name',
+              style: const TextStyle(fontSize: 18),
+            ),
+            Text(
+              'Date  $date',
+              style: const TextStyle(fontSize: 18),
+            ),
           ],
         ),
       ),

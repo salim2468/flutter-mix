@@ -74,7 +74,8 @@ class _MainPageState extends State<MainPage> {
               ),
             ),
             ElevatedButton(
-                onPressed: moveToDisplayPage, child: const Text('Diplay'))
+                onPressed: moveToDisplayPage,
+                child: const Text('Diplay stored value'))
           ],
         ),
       ),
